@@ -1,34 +1,27 @@
-#home1{
- background: rgb(179,238,255);
-background: linear-gradient(90deg, rgba(179,238,255,1) 0%, rgba(184,250,165,1) 100%); 
-  position: relative;
-  display: inline-block;
-  padding: 21px;
-  width: 1em;
-  box-shadow: -1px 2px #00000047;
-}
-#home1 > a{
-  color: var(--cor-fundo2);
-  text-decoration: none;
-}
 
 .dropmenuu{
-  font-family: Inter,Helvetica,Arial,sans-serif;
-  margin-left: 3.6em;
+  margin-left: -1em;
 }
 .dropmenuu ul{
   list-style-type: none;
   padding: 0;
-  background-color: var(--cor-fundo2);
-  box-shadow: -1px 2px #00000047;
+  background-color: #dedede;
+  border: 3px solid black;
+}
+
+.link-red{
+  margin-left: 30px;
+}
+.link-red2{
+  margin-left: 8px;
 }
 .dropmenuu ul li{
   display: inline;
   position: relative;
-  
+
 }
 .dropmenuu ul li a{
-  color: var(--cor-fundo);
+  color: black;
   text-decoration: none;
   display: inline-block;
   padding: 2px;
@@ -38,23 +31,13 @@ background: linear-gradient(90deg, rgba(179,238,255,1) 0%, rgba(184,250,165,1) 1
 
 .pessoal-hover{
 
- color: rgb(179,238,255);
-background: linear-gradient(90deg, rgba(179,238,255,1) 0%, rgba(184,250,165,1) 100%); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
+ background-color: #c2c2c2;
   
 }
 .dropmenuu ul li a:hover{
 
-color: rgb(179,238,255);
-background: linear-gradient(90deg, rgba(179,238,255,1) 0%, rgba(184,250,165,1) 100%); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  text-fill-color: transparent;
-  -webkit-text-fill-color: transparent;
-transition: .3s;
+  background-color: #c2c2c2;
+  transition: .3s;
 
 }
 
@@ -77,25 +60,7 @@ transition: .3s;
 
 #drop1{
   position: static;
-  right: 0;
-  left: 0;
-  top: 4.5em;
-  margin-top: 1em;
-  height: 50px;
-  line-height: 40px;
-}
-
-#home1{
-  position: static;
-  right: 0;
-  left: 0;
-  top: 1.5em;
-  margin-top: 1.5em;
-  height: 34px;
-  line-height: 40px;
-}
-#icone > img{
-  margin-top: .4em;
-  margin-left: -.7em;
-  opacity: .9;
+  margin-top: -4.5px;
+  height: 40px;
+  line-height: 30px;
 }

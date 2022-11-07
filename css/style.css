@@ -12,8 +12,8 @@
   --cor-red: #ff8080;
 }
 body{
-  background:#14161bff;
-  font-family: Inter,Helvetica,Arial,sans-serif;
+  background:white;
+  font-family: Times New Roman,Arial,sans-serif;
 }
 #agradecimentos{
   color: var(--cor-round);

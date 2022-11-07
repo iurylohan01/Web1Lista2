@@ -5,31 +5,25 @@
 }
 
 #corpo{
-    border: 0px solid black;
     width: 100%;
     height: 500px;
 }
 
 #header-banner{
-  height: 105px;
+  height: 115px;
   width: 100%;
   background: white; 
-  margin-top: -10px;
+  margin-top: -20px;
 }
 #red-img{
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-}
-#header{
-    border: 1px solid red;
-    width: 100%;
-    height: 45px;
+margin-top: 10px;
 }
 
 main{
-    border: 1px solid green;
     width: 100%;
     height: 380px;
 }
@@ -37,35 +31,101 @@ main{
 .cols{
     float: left;
     border: 2px solid black;
+    border-top: 0;
     height: 100%;
 }
 
 .col1{
-    width: 25%;
+  width: 25%;
+  overflow: auto;
 }
+.resize-text{
+  margin: 13px;
+  position: static;
+  padding-bottom: 10px;
 
+}
 .col2{
-    width: 50%;
+    width: 55%;
     position: relative;
 }
 
 .col3{
-    width: 25%;
+    width: 20%;
 }
 
 #col3-sup{
-    width: 100%;
-    height: 50%;
-    border-bottom: 1px dashed black;
+  width: 100%;
+  height: 50%;
+  border-bottom: 2px dashed black;
+  padding-top: 25px;
+
 }
 
+#col-resize{
+  margin-left: 1.5em;
+  position: static;
+  
+}
 #col3-inf{
-    width: 100%;
-    height: 50%;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-footer{
-    width: 100%;
-    height: 20px;
-    border: 1px solid blue;
+#header-basic{
+  height: 55px;
+  width: 100%;
+  border: 2px solid black;
+  border-bottom: 3.5px solid black;
+}
+#header-basic > p{
+  text-align: center;
+  margin-top: 16px;
+  
+}
+.basic{
+  text-align: center;
+}
+
+input[type=checkbox] {
+         position: relative;
+	       cursor: pointer;
+    }
+    input[type=checkbox]:before {
+         content: "";
+         display: block;
+         position: absolute;
+         width: 19px;
+         height: 19px;
+         top: 0;
+         left: 0;
+         background-color:#e9e9e9;
+}
+input[type=checkbox]:checked:before {
+         content: "";
+         display: block;
+         position: absolute;
+         width: 19px;
+         height: 19px;
+         top: 0;
+         left: 0;
+         background-color:#1E80EF;
+}
+    input[type=checkbox]:checked:after {
+         content: "";
+         display: block;
+         width: 5px;
+         height: 10px;
+         border: solid white;
+         border-width: 0 2px 2px 0;
+         -webkit-transform: rotate(45deg);
+         -ms-transform: rotate(45deg);
+         transform: rotate(45deg);
+         position: absolute;
+         top: 2px;
+         left: 6px;
 }
